@@ -1,0 +1,138 @@
+.bgimg{
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./images/IN-en-20220822-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    
+}
+
+
+#logo{
+    color: red;
+    font-size: 70px;
+    margin-left: 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#Button1{
+    color: white;
+    border: 0%;
+    border-color: white;
+    margin-right: 18px;
+    border-radius: 0%;
+}
+
+#button2{
+    color: white;
+    text-decoration: none;
+    border-radius: 0%;
+    margin-right: 100px;
+}
+#heading{
+    color: white;
+    position:relative;
+    bottom: 545px;
+    text-align: center;
+    font-weight:bold;
+    font-size: 70px;
+    font-display: 50px;
+}
+#sub-head{
+    position: relative;
+    color:white;
+    bottom: 525px;
+    text-align: center;
+    font-size: 25px ;
+    font-display: 50px;
+    opacity: 2;
+}
+
+#pera{
+    position: relative;
+    bottom: 510px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-display:50px;
+    opacity: 2;
+}
+
+
+#form1{
+    position: relative;
+    bottom: 500px;
+    color: white;
+    border-radius: 0%;
+    border: 0%;
+
+}
+
+#button{
+    position: relative;
+    left: 80%;
+    border: 0%;
+    border-radius: 0;
+    bottom: 115px;
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 22px;
+}
+
+@media only screen and (max-width:820px){
+    #heading{
+        color: white;
+        position:relative;
+        bottom: 645px;
+        text-align: center;
+        font-weight:bold;
+        font-size: 60px;
+    }
+    #sub-head{
+        position: relative;
+        color:white;
+        bottom: 625px;
+        text-align: center;
+        font-size: 25px ;
+        opacity: 1;
+    }
+    #pera{
+        position: relative;
+        bottom: 610px;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        opacity: 1;
+    }
+
+    #form1{
+        position: relative;
+        bottom: 600px;
+        color: white;
+        border-radius: 0%;
+        border: 0%;
+    }
+}
+
+
+@media only screen and (max-width:375px){
+    #logo{
+        color: red;
+        font-size: 40px;
+        margin-left: 10px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    #Button1{
+        color: white;
+        border: 0%;
+        border-color: white;
+        margin-left: 210px;
+        border-radius: 0%;
+    }
+}
+
